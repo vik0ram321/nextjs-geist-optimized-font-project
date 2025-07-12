@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  madhav-assistant:
+    build: .
+    container_name: madhav_assistant
+    volumes:
+      - .:/app
+    environment:
+      - OPENROUTER_API_KEY=${OPENROUTER_API_KEY}
+      - STABILITY_AI_API_KEY=${STABILITY_AI_API_KEY}
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
