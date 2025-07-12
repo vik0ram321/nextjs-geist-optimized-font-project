@@ -1,0 +1,7 @@
+requests
+httpx
+opencv-python
+ffmpeg-python
+PyQt5
+pytest
+docker
