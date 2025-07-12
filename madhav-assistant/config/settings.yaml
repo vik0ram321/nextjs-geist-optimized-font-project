@@ -1,0 +1,9 @@
+openrouter_api_key: "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"
+stability_ai_api_key: "YOUR_STABILITY_AI_API_KEY_HERE"
+master_key: "YOUR_MASTER_KEY_HERE"
+vpn_config:
+  enabled: true
+  vpn_list: []
+tor_config:
+  enabled: true
+  tor_proxy: "socks5h://127.0.0.1:9050"
